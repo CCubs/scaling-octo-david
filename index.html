@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - escapeRoom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-cassette"></i>
+      Josh's Mini Escape Room!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/CCubs/scaling-octo-david">Source Code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/CCubs/scaling-octo-david">Is This Code Valid?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">How To Play</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="row">
+  <div class="col-md-4">
+    <h1>HOW TO PLAY: </h1>
+  <p>Find the code to escape!</p>
+  <div class="col-md-4"></div>
+  <div>
+    <label for="answerInput">Enter Code:</label>
+    <input type="text" id="answerInput" />
+    <button onclick="checkAnswer()">Check!</button>
+    <p id="resultMessage"></p>
+    <button id="resetButton"> Reset </button>
+</div>
+
+    <div id="container" style="position: relative; width: 500px; height: 300px; border: 1px solid #000;">
+    <p class = "hint">Hint: GRBY.</p>
+    <img id="draggableImage" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="Draggable Image">
+</div>
+  
+  </div>
+  
+   
+  <div class="col-md-4">
+    <h1 class="obj1">9</h1>
+    <h2 class="obj2">3</h2>
+    <h3 class="obj3">7</h3>
+    <h4 class="obj4">1</h4>
+  </div>
+</div>
+
+<footer>
+  <p>Thank you for playing my game!</p>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'>
+</script><script  src="scripts/script.js"></script>
+
+</body>
+</html>

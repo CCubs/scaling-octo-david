@@ -1,0 +1,37 @@
+.hint {
+  padding: 40px;
+  
+}
+
+#draggableImage {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: grab;
+  height: 200px;
+  
+}
+
+.obj1 {
+  color: red;
+}
+
+.obj2 {
+  color: yellow;
+}
+
+.obj3 {
+  color: green;
+}
+
+.obj4 {
+  color: blue;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  font-family: "Audiowide", sans-serif;
+}
